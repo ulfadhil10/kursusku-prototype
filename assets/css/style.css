@@ -3,7 +3,7 @@
 body {
   font-family: Arial, sans-serif;
   margin: 0;
-  color: #13231f;
+  color: #16332c;
   background: #f5f7f6;
 }
 
@@ -14,7 +14,7 @@ body {
 }
 
 .header {
-  background: #8d0606;
+  background: #df0909c5;
   color: white;
   padding: 32px 0;
   text-align: center;
@@ -24,7 +24,7 @@ body {
 .header p { margin: 8px 0 0; opacity: 0.9; }
 
 .navbar {
-  background: #8d0606;
+  background: #a32b2b;
   padding: 12px 0;
 }
 
@@ -64,7 +64,7 @@ body {
 
 .button {
   display: inline-block;
-  background: #8d0606;
+  background: #df0909c5;
   color: white;
   padding: 12px 24px;
   border-radius: 8px;
@@ -73,7 +73,7 @@ body {
   margin-top: 12px;
 }
 
-.button:hover { background: #8d0606; }
+.button:hover { background: #a32b2b';; }
 
 .course-grid {
   display: grid;
@@ -89,7 +89,7 @@ body {
   padding: 20px;
 }
 
-.course-card h3 { margin-top: 0; color: #8d0606; }
+.course-card h3 { margin-top: 0; color: #df0909c5; }
 
 .video-placeholder {
   text-align: center;
@@ -97,7 +97,7 @@ body {
 }
 
 .footer {
-  background: #8d0606;
+  background: #df0909c5;
   color: white;
   padding: 24px 0;
   text-align: center;
@@ -123,7 +123,7 @@ th, td {
 }
 
 th {
-  background: #8d0606;
+  background: #df0909c5;
   color: white;
   font-weight: 600;
 }
@@ -139,7 +139,7 @@ th {
 
 .badge-available {
   background: #e7f8ef;
-  color: #8d0606;
+  color: #9c1919;
 }
 
 .badge-full {
