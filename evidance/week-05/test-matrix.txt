@@ -1,0 +1,49 @@
+Test Matrix
+
+1. Load Form
+   Status: Lulus
+   Catatan: Form pendaftaran dapat dibuka tanpa error.
+
+2. Required
+   Status: Lulus
+   Catatan: Form tidak dapat dikirim jika field wajib masih kosong.
+
+3. Email
+   Status: Lulus
+   Catatan: Format email yang salah ditolak oleh browser.
+
+4. Nama Pendek
+   Status: Lulus
+   Catatan: Nama kurang dari dua karakter tidak dapat dikirim.
+
+5. GET
+   Status: Lulus
+   Catatan: Data terlihat pada URL setelah method diubah menjadi GET.
+
+6. POST
+   Status: Lulus
+   Catatan: Data berhasil dikirim dan tidak terlihat pada URL.
+
+7. Radio Button
+   Status: Lulus
+   Catatan: Pilihan Mahasiswa atau Umum tampil pada hasil pendaftaran.
+
+8. Checkbox
+   Status: Lulus
+   Catatan: Dua pilihan minat berhasil ditampilkan pada hasil pendaftaran.
+
+9. Textarea
+   Status: Lulus
+   Catatan: Catatan yang diisi berhasil ditampilkan kembali.
+
+10. Hidden
+    Status: Lulus
+    Catatan: Nilai sumber week-05 berhasil diterima.
+
+11. Mobile
+    Status: Lulus
+    Catatan: Form tetap rapi dan tidak mengalami overflow pada ukuran sekitar 360 px.
+
+12. Navigasi
+    Status: Lulus
+    Catatan: Link Beranda, Katalog, dan Daftar mengarah ke halaman yang sesuai.

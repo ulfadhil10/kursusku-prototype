@@ -1,0 +1,20 @@
+Perbandingan Localhost dan Hosting
+
+Localhost adalah lingkungan yang digunakan untuk menjalankan dan menguji website di komputer sendiri. Pada praktikum ini, localhost digunakan melalui Laragonuntuk menjalankan project KursusKu. Jadi, website masih digunakan untuk proses pembuatan, pengujian form, PHP, CSS, dan fitur lainnya sebelum dipublikasikan.
+
+Sedangkan hosting adalah tempat untuk menjalankan website pada sebuah server agar bisa diakses melalui internet. Jika project KursusKu sudah dipindahkan ke hosting, website tidak lagi hanya bisa dibuka dari komputer sendiri, tetapi dapat diakses menggunakan domain atau subdomain.
+
+Jadi, perbedaannya adalah localhost digunakan untuk membuat dan menguji website secara lokal, sedangkan hosting digunakan agar website dapat diakses melalui internet. Pada praktikum ini, project masih berada di lingkungan localhost dan belum perlu dipindahkan ke hosting.
+
+Sementara itu, GET dan POST merupakan method yang digunakan untuk mengirim data dari form ke server. Perbedaannya terletak pada cara data dikirim.
+
+
+Method GET mengirimkan data melalui URL, sehingga data yang dikirim dapat terlihat pada alamat browser. GET biasanya digunakan untuk pencarian atau mengambil data.
+
+Sedangkan POST mengirimkan data melalui bagian request body, sehingga data tidak ditampilkan langsung pada URL. Pada praktikum KursusKu, POST digunakan pada form pendaftaran untuk mengirim data ke `process-registration.php`, kemudian data tersebut diproses menggunakan PHP melalui `$_POST`.
+
+Jadi, GET digunakan untuk mengirim data melalui URL, sedangkan POST mengirimkan data melalui request body. Untuk form pendaftaran pada praktikum ini, method POST digunakan agar data tidak ditampilkan pada URL.
+
+Kesimpulan :
+Localhost digunakan untuk membuat dan menguji website di komputer sendiri, sedangkan hosting digunakan agar website dapat diakses melalui internet. Sementara itu, GET mengirim data melalui URL, sedangkan POST mengirim data melalui request body. Pada praktikum ini, POST digunakan untuk mengirim data pendaftaran ke proses PHP.
+
