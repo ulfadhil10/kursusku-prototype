@@ -17,11 +17,16 @@ Sementara itu, GET dan POST merupakan method yang digunakan untuk mengirim data 
 Perbedaannya terletak pada cara data dikirim. Method GET mengirimkan data melalui URL, sehingga data 
 yang dikirim dapat terlihat pada alamat browser. GET biasanya digunakan untuk pencarian atau mengambil data.
 
-Sedangkan POST mengirimkan data melalui bagian request body, sehingga data tidak ditampilkan langsung pada URL. Pada praktikum KursusKu, POST digunakan pada form pendaftaran untuk mengirim data ke `process-registration.php`, kemudian data tersebut diproses menggunakan PHP melalui `$_POST`.
+Sedangkan POST mengirimkan data melalui bagian request body, sehingga data tidak ditampilkan
+langsung pada URL. Pada praktikum KursusKu, POST digunakan pada form pendaftaran untuk mengirim
+data ke `process-registration.php`, kemudian data tersebut diproses menggunakan PHP melalui `$_POST`.
 
 Jadi, GET digunakan untuk mengirim data melalui URL, sedangkan POST mengirimkan data melalui request body. 
 Untuk form pendaftaran pada praktikum ini, method POST digunakan agar data tidak ditampilkan pada URL.
 
 Kesimpulan :
-Localhost digunakan untuk membuat dan menguji website di komputer sendiri, sedangkan hosting digunakan agar website dapat diakses melalui internet. Sementara itu, GET mengirim data melalui URL, sedangkan POST mengirim data melalui request body. Pada praktikum ini, POST digunakan untuk mengirim data pendaftaran ke proses PHP.
+Localhost digunakan untuk membuat dan menguji website di komputer sendiri, sedangkan hosting digunakan
+agar website dapat diakses melalui internet. Sementara itu, GET mengirim data melalui URL, 
+sedangkan POST mengirim data melalui request body. Pada praktikum ini, POST digunakan untuk mengirim 
+data pendaftaran ke proses PHP.
 
