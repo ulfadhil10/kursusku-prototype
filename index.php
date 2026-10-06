@@ -427,7 +427,7 @@ $tahun = date("Y");
       <div class="stats-grid">
 
         <div class="stat-card">
-          <strong>6</strong>
+          <strong>3</strong>
           <span>Pilihan Kursus</span>
         </div>
 
