@@ -1,6 +1,6 @@
 <?php
 $courseName = 'Laravel Fundamental';
-$fee = 2500000;
+$fee = 500000;
 $participantCount = 3;
 $discountPercent = 10;
 $adminFee = 50000;
@@ -15,12 +15,16 @@ $total = $subtotal - $discount + $adminFee;
     <meta charset="utf-8">
     <title>Kalkulator Biaya - KursusKu</title>
     <style>
-        body{font-family:Arial,sans-serif;background:#f5f7f6;padding:32px}
-        .card{max-width:720px;margin:auto;background:white;padding:24px;border-radius:16px}
+        body{font-family:"Trebuchet MS",sans-serif;background:#EDE383;padding:32px;color:#351903}
+        .card{max-width:720px;margin:auto;background:#FFFBEA;padding:24px;border-radius:16px;border:1px solid #D5D69A}
         table{width:100%;border-collapse:collapse}
-        th,td{border-bottom:1px solid #ddd;padding:10px;text-align:left}
-        .total{background:#eaf7f3;font-weight:bold}
-        a{color:#0f766e}
+        th,td{border-bottom:1px solid #D5D69A;padding:10px;text-align:left}
+        th{background:#365004;color:#EDE383}
+        td{color:#351903}
+        .total{background:#365004;color:#EDE383;font-weight:bold}
+        .total td{background:#365004;color:#EDE383}
+        a{color:#925E06;font-weight:600}
+        a:hover{color:#365004}
     </style>
 </head>
 <body>
