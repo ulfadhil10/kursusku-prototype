@@ -76,26 +76,26 @@
         <label class="choice"><input type="checkbox" name="interests[]" value="frontend"> Frontend</label>
       </fieldset>
 
-     <div class="form-grid">
-  <div class="form-group">
-    <label for="learning_method">Metode Belajar</label>
-    <select id="learning_method" name="learning_method" required>
-      <option value="">-- Pilih metode --</option>
-      <option value="online">Online</option>
-      <option value="offline">Offline</option>
-      <option value="hybrid">Hybrid (Online + Offline)</option>
-    </select>
-  </div>
-
-  <div class="form-group">
-    <label for="package_count">Jumlah Paket</label>
-    <select id="package_count" name="package_count" required>
-      <option value="1">1 paket</option>
-      <option value="2">2 paket</option>
-      <option value="3">3 paket</option>
-    </select>
-  </div>
-</div>
+    <!-- Metode & Jumlah Paket -->
+      <div class="form-grid">
+        <div class="form-group">
+          <label for="learning_mode">Metode Belajar</label>
+          <select id="learning_mode" name="learning_mode" required>
+            <option value="">-- Pilih metode --</option>
+            <option value="offline">Tatap Muka</option>
+            <option value="online">Online</option>
+            <option value="hybrid">Hybrid</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="package_count">Jumlah Paket</label>
+          <select id="package_count" name="package_count" required>
+            <?php for ($i = 1; $i <= 3; $i++): ?>
+              <option value="<?= $i ?>"><?= $i ?> paket</option>
+            <?php endfor; ?>
+          </select>
+        </div>
+      </div>
 
       <div class="form-group">
         <label for="note">Catatan</label>
