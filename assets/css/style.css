@@ -590,3 +590,305 @@ textarea:focus {
 .site-header a:hover {
     color: #FFFFFF;
 }
+
+/* DATE/TIME TEST */
+.utility-page {
+    min-height: 100vh;
+    margin: 0;
+    padding: 30px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    background: #FFFBEA;
+    font-family: "Trebuchet MS", sans-serif;
+    color: #351903;
+}
+
+.utility-card {
+    width: 100%;
+    max-width: 520px;
+    padding: 35px;
+    box-sizing: border-box;
+    background: #FFFBEA;
+    border: 1px solid #D5D69A;
+    border-top: 6px solid #8DA432;
+    border-radius: 16px;
+    box-shadow: 0 10px 30px rgba(53, 25, 3, 0.08);
+}
+
+.utility-card h1 {
+    margin: 0 0 25px;
+    color: #365004;
+    font-size: 28px;
+}
+
+.utility-card p {
+    margin: 12px 0;
+    padding: 14px 16px;
+    background: #F4F1B8;
+    border-radius: 8px;
+    color: #351903;
+    line-height: 1.6;
+}
+
+.utility-card a {
+    display: inline-block;
+    margin-top: 18px;
+    padding: 12px 22px;
+    background: #365004;
+    color: #EDE383;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 700;
+    transition: background 0.2s ease;
+}
+
+.utility-card a:hover {
+    background: #925E06;
+    color: #FFFBEA;
+}
+
+@media (max-width: 480px) {
+    .utility-card {
+        padding: 25px 20px;
+    }
+
+    .utility-card h1 {
+        font-size: 24px;
+    }
+}
+
+```css
+/* DASAR */
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    --flax: #EDE383;
+    --apple: #8DA432;
+    --moss: #365004;
+    --brown: #925E06;
+    --bistre: #351903;
+    --cream: #FFFBEA;
+    --soft: #F4F1B8;
+    --line: #D5D69A;
+    --text: #351903;
+    --muted: #665522;
+}
+
+body {
+    margin: 0;
+    padding: 30px 20px;
+    min-height: 100vh;
+    font-family: "Trebuchet MS", sans-serif;
+    color: var(--text);
+    background: var(--flax);
+    line-height: 1.6;
+}
+
+/* KARTU UTAMA */
+.utility-card {
+    width: 100%;
+    max-width: 760px;
+    margin: 30px auto;
+    padding: 30px;
+    background: var(--cream);
+    border: 1px solid var(--line);
+    border-top: 6px solid var(--moss);
+    border-radius: 16px;
+    box-shadow: 0 8px 24px rgba(53, 25, 3, 0.10);
+}
+
+/* JUDUL */
+h1 {
+    margin-top: 0;
+    margin-bottom: 25px;
+    color: var(--moss);
+    font-size: 30px;
+}
+
+h2 {
+    margin-top: 28px;
+    margin-bottom: 14px;
+    padding-bottom: 8px;
+    color: var(--brown);
+    border-bottom: 2px solid var(--line);
+    font-size: 21px;
+}
+
+/* DATA */
+.utility-card p {
+    margin: 10px 0;
+    padding: 14px 16px;
+    background: var(--soft);
+    border: 1px solid var(--line);
+    border-radius: 9px;
+    color: var(--text);
+}
+
+.utility-card strong {
+    color: var(--moss);
+}
+
+/* LINK DAN TOMBOL */
+a {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 11px 20px;
+    background: var(--moss);
+    color: var(--flax);
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 700;
+    transition: background 0.2s ease;
+}
+
+a:hover {
+    background: var(--brown);
+    color: var(--cream);
+}
+
+/* RESPONSIVE */
+@media (max-width: 600px) {
+    body {
+        padding: 15px;
+    }
+
+    .utility-card {
+        margin: 10px auto;
+        padding: 20px;
+    }
+
+    h1 {
+        font-size: 25px;
+    }
+
+    h2 {
+        font-size: 19px;
+    }
+}
+
+
+/* FORM PENDAFTARAN KURSUSKU */
+body.utility-page:has(form) {
+    margin: 0;
+    padding: 40px 20px;
+    min-height: 100vh;
+    background: #EDE383;
+    font-family: "Trebuchet MS", sans-serif;
+    color: #351903;
+}
+
+.utility-page:has(form) .utility-card {
+    width: 100%;
+    max-width: 680px;
+    margin: 0 auto;
+    padding: 35px;
+    background: #FFFBEA;
+    border: 1px solid #D5D69A;
+    border-top: 7px solid #365004;
+    border-radius: 18px;
+    box-shadow: 0 10px 30px rgba(53, 25, 3, 0.12);
+}
+
+.utility-page:has(form) h1 {
+    margin: 0 0 10px;
+    color: #365004;
+    font-size: 30px;
+}
+
+.utility-page:has(form) h2 {
+    margin-top: 25px;
+    color: #925E06;
+    font-size: 21px;
+}
+
+.utility-page:has(form) form > p {
+    margin: 18px 0;
+    padding: 0;
+    background: transparent;
+    border: none;
+}
+
+.utility-page:has(form) label {
+    display: block;
+    margin-bottom: 7px;
+    color: #365004;
+    font-weight: 700;
+}
+
+.utility-page:has(form) input:not([type="checkbox"]),
+.utility-page:has(form) select,
+.utility-page:has(form) textarea {
+    display: block;
+    width: 100%;
+    min-height: 45px;
+    padding: 11px 13px;
+    border: 1px solid #D5D69A;
+    border-radius: 8px;
+    background: #FFFDF2;
+    color: #351903;
+    font: inherit;
+}
+
+.utility-page:has(form) textarea {
+    min-height: 100px;
+    resize: vertical;
+}
+
+.utility-page:has(form) input[type="checkbox"] {
+    width: 17px;
+    height: 17px;
+    accent-color: #365004;
+    vertical-align: middle;
+}
+
+.utility-page:has(form) form > p:has(input[type="checkbox"]) label {
+    display: flex;
+    align-items: center;
+    gap: 9px;
+    font-weight: 400;
+}
+
+.utility-page:has(form) input:focus,
+.utility-page:has(form) select:focus,
+.utility-page:has(form) textarea:focus {
+    outline: 2px solid #8DA432;
+    border-color: #365004;
+}
+
+.utility-page:has(form) button,
+.utility-page:has(form) a.button {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 8px;
+    background: #365004;
+    color: #FFFBEA;
+    font: inherit;
+    font-weight: 700;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.utility-page:has(form) button:hover,
+.utility-page:has(form) a.button:hover {
+    background: #925E06;
+}
+
+@media (max-width: 600px) {
+    body.utility-page:has(form) {
+        padding: 18px 12px;
+    }
+
+    .utility-page:has(form) .utility-card {
+        padding: 22px 18px;
+    }
+
+    .utility-page:has(form) h1 {
+        font-size: 25px;
+    }
+}
